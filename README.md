@@ -11,4 +11,6 @@
 
 <img width="5000" height="1543" alt="Save The StealthBurner" src="https://github.com/user-attachments/assets/9c4654dc-24c3-4824-9c3b-07462d038b1f" />
 
-# Save the StealthBurner
+# Save the Rapid Burner... Same Campaign as "Save the StealthBurner" but Chirpy 
+
+
