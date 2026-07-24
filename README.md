@@ -11,30 +11,40 @@
 <img width="1983" height="793" alt="223f9bb9-dabb-4646-a062-f38930a52731" src="https://github.com/user-attachments/assets/3a071399-5f96-4e7a-b110-da3b01cb0308" />
 
 
-# Save the Rapid Burner... Same Campaign as "Save the StealthBurner" but Chirpy 
+Save the Rapid Burner
 
-Same rules as SB-COM....
+The same campaign as “Save the StealthBurner”—just a little more chirpy.
 
-We design, rework, print, weigh, adjust, implement, check COM
+The same rules apply as SB-COM:
 
-This is an intensly time consuming project and I for one do not wnat to develop this for every single hotend out htere. so... if you want to take a stab at it please do it. 
+We design, rework, print, weigh, adjust, implement, and verify the center of mass.
 
-RB-COM is currently ONLY for Mellow Goliath / CHC-XL hotends. I plan on developing this for the Rapdio 2 UHF hotends as well. 
+This is an intensely time-consuming project, and I do not plan to develop a version for every hotend available. Anyone who wants to take a stab at adapting it to another hotend is encouraged to do so.
 
-## COM Calibration Method
+RB-COM currently supports only:
 
-Before we dive in:
+Mellow Goliath
+Trianglelab CHC-XL
 
-Fusion 360 calculates **solid mass (no air)**.  
-3D printed parts are not solid — even at 100% infill — so calculated weights are inaccurate.
+I also plan to develop support for the Rapido 2 UHF.
 
-To fix this:
+COM Calibration Method
 
-- Printed a real part  
-- Measured actual weight  
-- Back-calculated density for accurate COM simulation
-- New Density = Current Density × (Target Mass ÷ Current Mass)​
+Before diving in, it is important to understand how the mass calculations were calibrated.
 
+Fusion 360 calculates the mass of a completely solid part with no internal air. A 3D-printed part is not truly solid—even when printed at 100% infill—so the calculated mass will not match the real printed part.
+
+To correct for this:
+
+A physical part was printed
+The actual part was weighed
+The effective material density was back-calculated
+The corrected density was then used for more accurate center-of-mass simulations
+Density Correction Formula
+
+New Density = Current Density × (Target Mass ÷ Current Mass)
+
+This process gives the Rapid Burner toolhead a much more realistic simulated mass and center-of-mass location.
 ## Check out my Fusion 360 Density calculator here: https://thevoronmodder.github.io/SB-COM/
 
 ---
