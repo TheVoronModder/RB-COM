@@ -11,7 +11,7 @@
 <img width="1983" height="793" alt="223f9bb9-dabb-4646-a062-f38930a52731" src="https://github.com/user-attachments/assets/3a071399-5f96-4e7a-b110-da3b01cb0308" />
 
 
-Save the Rapid Burner
+## Save the Rapid Burner
 
 The same campaign as “Save the StealthBurner”—just a little more chirpy.
 
@@ -23,12 +23,12 @@ This is an intensely time-consuming project, and I do not plan to develop a vers
 
 RB-COM currently supports only:
 
-Mellow Goliath
-Trianglelab CHC-XL
+* Mellow Goliath
+* Trianglelab CHC-XL
 
 I also plan to develop support for the Rapido 2 UHF.
 
-COM Calibration Method
+## COM Calibration Method
 
 Before diving in, it is important to understand how the mass calculations were calibrated.
 
@@ -36,11 +36,12 @@ Fusion 360 calculates the mass of a completely solid part with no internal air. 
 
 To correct for this:
 
-A physical part was printed
-The actual part was weighed
-The effective material density was back-calculated
-The corrected density was then used for more accurate center-of-mass simulations
-Density Correction Formula
+* A physical part was printed
+* The actual part was weighed
+* The effective material density was back-calculated
+* The corrected density was then used for more accurate center-of-mass simulations
+
+## Density Correction Formula
 
 New Density = Current Density × (Target Mass ÷ Current Mass)
 
