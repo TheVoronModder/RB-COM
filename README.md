@@ -56,7 +56,9 @@ This process gives the Rapid Burner toolhead a much more realistic simulated mas
 - 4 top / bottom layers  
 - 40% rectilinear infill  
 - 0.4 mm nozzle  
-- Ambrosia ASA  
+- Ambrosia ASA
+
+## Image below from SB-COM
 
 <img width="3000" height="700" alt="COM Weight Issues" src="https://github.com/user-attachments/assets/ddc78743-416e-417e-9333-a8aa3d476adc" />
 
