@@ -13,4 +13,13 @@
 
 # Save the Rapid Burner... Same Campaign as "Save the StealthBurner" but Chirpy 
 
+Same rules as SB-COM....
+
+We design, rework, print, weigh, adjust, implement, check COM
+
+This is an intensly time consuming project and I for one do not wnat to develop this for every single hotend out htere. so... if you want to take a stab at it please do it. 
+
+RB-COM is currently ONLY for Mellow Goliath / CHC-XL hotends. I plan on developing this for the Rapdio 2 UHF hotends as well. 
+
+
 
