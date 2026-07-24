@@ -8,7 +8,7 @@
 ![Status](https://img.shields.io/badge/Status-MILF-blue)
 -------------------------------------------------------------------------------------------------
 
-<img width="1983" height="793" alt="223f9bb9-dabb-4646-a062-f38930a52731" src="https://github.com/user-attachments/assets/24cf01b6-86c7-46f7-8d29-f1614669f600" />
+<img width="1983" height="793" alt="223f9bb9-dabb-4646-a062-f38930a52731" src="https://github.com/user-attachments/assets/3a071399-5f96-4e7a-b110-da3b01cb0308" />
 
 
 # Save the Rapid Burner... Same Campaign as "Save the StealthBurner" but Chirpy 
